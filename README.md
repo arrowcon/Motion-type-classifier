@@ -8,4 +8,5 @@ give a perfect test set answer:  20 out of 20 was predicted correctly.
 For the html file, you must get off the master branch and go to the gh-pages branch.  left-
 click on the Motion-type classifier.html link, then click on the little screen like picture 
 that says open this file on the Github desk top to view the html file without the html code, 
-which is easier to read.
+which is easier to read. Remember, you should wait a minute to a few minutes before the real
+html output would show up.  So, please exercise some patients.  Thanks!!
