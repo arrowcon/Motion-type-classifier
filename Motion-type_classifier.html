@@ -72,7 +72,7 @@ img {
 <pre class="r"><code>library(caret)</code></pre>
 <pre><code>## Loading required package: lattice</code></pre>
 <pre><code>## Loading required package: ggplot2</code></pre>
-<p>We first save the training set data, called pml-training.csv, and the test set data, called pml-testing.csv, to our home directory C://Rtools. We then opened both in Excel, and got rid of all the columns with empty cells and NA’s. We discover that there is no missing data to impute because each variable has either all missing data in it, or all data. We simply get rid of all the variables with either no data or NA listed under the column for both the training and testing sets. They are the same variables and no further adjustments are needed.</p>
+<p>We first save the training set data, named pml-training.csv, and the test set data, called pml-testing.csv, to our home directory C://Rtools. We then opened both in Excel, and got rid of all the columns with empty cells and NA’s. We discover that there is no missing data to impute because each variable has either all missing data in it, or all data. We simply get rid of all the variables with either no data or NA listed under the column for both the training and testing sets. They are the same variables and no further adjustments are needed.</p>
 <p>First, we import the training and testing data sets into our home directory (mine is C://Rtools on my windows-base-operating-system-computer) The training data set has 19,622 observations and 60 variables, while the testing data set has 20 test cases and 60 variables.</p>
 <pre class="r"><code>training &lt;- read.csv(&quot;C://Rtools//pml-traininga.csv&quot;)
 testing &lt;- read.csv(&quot;C://Rtools//pml-testinga.csv&quot;)</code></pre>
